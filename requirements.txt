@@ -1,0 +1,4 @@
+# requirement for use python tools
+scapy  
+python-nmap 
+wheel
