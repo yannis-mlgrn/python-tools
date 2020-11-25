@@ -1,7 +1,7 @@
 #! /usr/bin/python3 
 
 #******************************************* MAKE BY *********************************************
-#                                           yannis-mlgrn 
+#                                          yannis-mlgrn 
 #   github : https://github.com/yannis-mlgrn/
 #   repository : https://github.com/yannis-mlgrn/python-tools/
 #
