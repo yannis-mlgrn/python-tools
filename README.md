@@ -1,6 +1,5 @@
 # python hacking tools
-python tools are a 
-# how to setup 
+## how to setup 
 **for install python tools you must :**
 
 go to the directory :
@@ -15,11 +14,12 @@ go to the directory :
 
 ## run python tools
 
-**1.Create a python virtualenv**
+**1.run the virtualenv and install python package**
 
-    python3 -m venv .venv
+    source .venv/bin/activate
+    pip3 install -r requirements.txt
 
-**2.Run the python file**
+**2.Run python tools**
 
     chmod +x tools.py
     ./tools.py
