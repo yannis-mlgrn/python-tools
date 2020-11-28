@@ -24,12 +24,27 @@ echo """
 
  """
 #install python3
+echo "\n"
 echo "install python 3.8"
 sudo apt-get install python3.8
 
 # install pip3
+echo "\n"
 echo "install pip3"
 sudo apt install python3-pip
 
-echo "install python3 librairies"
-pip3 install -r requirements.txt
+echo "\n"
+echo "make a virtualenv"
+python3 -m venv .venv
+
+#echo "\n"
+#echo " make a virtualenv "
+#ls -a
+#cmd='source .venv/bin/activate'
+#bash $cmd
+
+echo "\n"
+echo " install requirements.txt"
+sudo pip3 install -r requirements.txt
+
+echo "finish !!"

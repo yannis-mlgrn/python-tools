@@ -40,6 +40,13 @@ def menu():
         nmapscan()
     if c == '2' :
         arpspoof()
+    else : 
+        print("\n ERREUR :")
+        print("veuillez rentrer un caractère valide")
+        sleep(1.5)
+        menu()
+        
+    
 
              
  # fonction menu nmap       
@@ -60,7 +67,7 @@ def  nmapscan() :
     print("    1. scan des ports d'une ip")
     print("    2. scan os ")
     print("    3. scan reseau ")
-    print("    3. retour au menu principal \n")
+    print("    4. retour au menu principal \n")
     
     c = input(" quelle action veux tu réaliser? : ")
     
