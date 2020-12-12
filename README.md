@@ -16,7 +16,6 @@ go to the directory :
 
 **1.run the virtualenv and install python package**
 
-    source .venv/bin/activate
     pip3 install -r requirements.txt
 
 **2.Run python tools**
